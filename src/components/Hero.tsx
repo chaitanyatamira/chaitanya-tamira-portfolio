@@ -10,13 +10,6 @@ const Hero = () => {
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl floating-animation"></div>
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl floating-animation" style={{ animationDelay: '2s' }}></div>
 
-      {/* Fun Floating Geometric Shapes */}
-      <div className="absolute top-1/4 left-1/4 w-8 h-8 bg-primary/30 rotate-45 floating-animation" style={{ animationDelay: '1s' }}></div>
-      <div className="absolute top-1/3 right-1/4 w-6 h-6 bg-blue-500/40 rounded-full floating-animation" style={{ animationDelay: '3s' }}></div>
-      <div className="absolute bottom-1/3 left-1/3 w-4 h-12 bg-purple-500/30 rounded-full floating-animation" style={{ animationDelay: '4s' }}></div>
-      <div className="absolute top-1/2 right-1/3 w-10 h-10 border-2 border-primary/40 rotate-12 floating-animation" style={{ animationDelay: '2.5s' }}></div>
-      <div className="absolute bottom-1/4 right-1/5 w-6 h-6 bg-gradient-to-r from-primary/30 to-blue-500/30 transform rotate-45 floating-animation" style={{ animationDelay: '5s' }}></div>
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="fade-in-up visible">
           {/* Profile Picture */}
