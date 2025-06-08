@@ -8,6 +8,7 @@ import Portfolio from '@/components/Portfolio';
 import Services from '@/components/Services';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import ScrollCharacter from '@/components/ScrollCharacter';
 
 const Index = () => {
   useEffect(() => {
@@ -40,6 +41,7 @@ const Index = () => {
       <Services />
       <Contact />
       <Footer />
+      <ScrollCharacter />
     </div>
   );
 };
