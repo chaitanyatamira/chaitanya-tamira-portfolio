@@ -1,9 +1,6 @@
 
 import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   const contactInfo = [
@@ -52,9 +49,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          <div className="space-y-8 fade-in-up">
-            <Card className="glass-effect p-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="glass-effect p-8 fade-in-up">
               <h3 className="text-2xl font-bold mb-6 gradient-text">Contact Information</h3>
               <div className="space-y-4">
                 {contactInfo.map((info) => (
@@ -77,7 +74,7 @@ const Contact = () => {
               </div>
             </Card>
 
-            <Card className="glass-effect p-8">
+            <Card className="glass-effect p-8 fade-in-up">
               <h3 className="text-2xl font-bold mb-6 gradient-text">Follow Me</h3>
               <div className="space-y-4">
                 {socialLinks.map((social) => (
@@ -100,34 +97,6 @@ const Contact = () => {
               </div>
             </Card>
           </div>
-
-          <Card className="glass-effect p-8 fade-in-up">
-            <h3 className="text-2xl font-bold mb-6 gradient-text">Send Message</h3>
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-medium mb-2">Name</label>
-                  <Input placeholder="Your Name" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Email</label>
-                  <Input type="email" placeholder="your.email@example.com" />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Subject</label>
-                <Input placeholder="Project Discussion" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Message</label>
-                <Textarea placeholder="Tell me about your project..." rows={6} />
-              </div>
-              <Button className="w-full gradient-bg text-white">
-                <Send className="h-4 w-4 mr-2" />
-                Send Message
-              </Button>
-            </form>
-          </Card>
         </div>
       </div>
     </section>
