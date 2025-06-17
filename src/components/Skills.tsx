@@ -64,26 +64,6 @@ const Skills = () => {
             </Card>
           ))}
         </div>
-
-        <div className="mt-16 text-center fade-in-up">
-          <Card className="glass-effect p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4 gradient-text">Core Strengths</h3>
-            <div className="grid md:grid-cols-2 gap-8 text-left">
-              <div>
-                <h4 className="text-lg font-semibold mb-2">Web Design</h4>
-                <p className="text-muted-foreground">
-                  Creating responsive, user-friendly interfaces that combine aesthetics with functionality.
-                </p>
-              </div>
-              <div>
-                <h4 className="text-lg font-semibold mb-2">AI Solutions</h4>
-                <p className="text-muted-foreground">
-                  Developing machine learning applications and data-driven tools for real-world problems.
-                </p>
-              </div>
-            </div>
-          </Card>
-        </div>
       </div>
     </section>
   );

@@ -29,7 +29,6 @@ const Hero = () => {
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed">
             A curious and creative individual who enjoys building smart tech solutions. 
-            Whether it's a hackathon, a college project, or a freelance opportunity, 
             I take on every challenge with a mindset to learn, build, and deliver results.
           </p>
 
