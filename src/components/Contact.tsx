@@ -7,14 +7,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'chaitanya.tamira@example.com',
-      link: 'mailto:chaitanya.tamira@example.com'
+      value: 'chaitanyatamira586@gmail.com',
+      link: 'mailto:chaitanyatamira586@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 12345 67890',
-      link: 'tel:+911234567890'
+      value: '+91 9515799270',
+      link: 'tel:+9515799270'
     },
     {
       icon: MapPin,
@@ -28,12 +28,12 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      link: 'https://github.com/chaitanya-tamira'
+      link: 'https://github.com/chaitanyatamira'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      link: 'https://linkedin.com/in/chaitanya-tamira'
+      link: 'https://www.linkedin.com/in/chaitanya-tamira-355151268/'
     }
   ];
 
