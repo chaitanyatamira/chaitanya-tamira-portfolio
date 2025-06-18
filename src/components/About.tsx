@@ -1,4 +1,3 @@
-
 import { Card } from '@/components/ui/card';
 import { GraduationCap, Target, Lightbulb } from 'lucide-react';
 
@@ -69,21 +68,25 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-3xl blur-xl"></div>
               <Card className="relative glass-effect p-8">
-                <h3 className="text-2xl font-bold mb-6 gradient-text">My Journey</h3>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  I'm currently pursuing my B.Tech at VNR VJIET with an expected graduation in 2026. 
-                  My journey in technology started with curiosity and has evolved into a passion for 
-                  creating meaningful solutions.
-                </p>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  I specialize in Python, Java, the MERN stack, and Machine Learning. My approach 
-                  combines technical expertise with creative problem-solving, always focusing on 
-                  user experience and practical applications.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Whether working on hackathons, college projects, or freelance opportunities, 
-                  I bring enthusiasm, dedication, and a growth mindset to every challenge.
-                </p>
+                <h3 className="text-2xl font-bold mb-6 gradient-text">Why Work With Me?</h3>
+                <ul className="space-y-4 text-left">
+                  <li className="flex items-start">
+                    <span className="inline-block w-3 h-3 mt-2 rounded-full bg-purple-400 mr-3"></span>
+                    <span className="text-muted-foreground leading-relaxed">Eager to learn and adapt to new technologies</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block w-3 h-3 mt-2 rounded-full bg-pink-400 mr-3"></span>
+                    <span className="text-muted-foreground leading-relaxed">Strong problem-solving and analytical skills</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block w-3 h-3 mt-2 rounded-full bg-blue-400 mr-3"></span>
+                    <span className="text-muted-foreground leading-relaxed">Committed to delivering high-quality results</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block w-3 h-3 mt-2 rounded-full bg-green-400 mr-3"></span>
+                    <span className="text-muted-foreground leading-relaxed">Creative approach to technical challenges</span>
+                  </li>
+                </ul>
               </Card>
             </div>
           </div>
