@@ -11,7 +11,7 @@ const Footer = () => {
             Building the future, one line of code at a time.
           </p>
           <p className="text-sm text-muted-foreground">
-            © 2024 Chaitanya Tamira. All rights reserved.
+            © 2025 Chaitanya Tamira. All rights reserved.
           </p>
         </div>
       </div>
