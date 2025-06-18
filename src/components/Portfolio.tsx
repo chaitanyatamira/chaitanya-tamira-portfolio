@@ -1,6 +1,7 @@
+
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, PiggyBank, Brain, Shield } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const Portfolio = () => {
   const projects = [
@@ -21,7 +22,7 @@ const Portfolio = () => {
     {
       title: 'CatchPhish',
       description: 'Advanced phishing detection system achieving 96% accuracy with real-time URL analysis and web security enhancement.',
-      techStack: ['Python', 'Flask', 'Scikit-learn', ,'HTML/CSS', 'JavaScript'],
+      techStack: ['Python', 'Flask', 'Scikit-learn', 'JavaScript'],
       features: ['96% accuracy', 'Real-time analysis', 'API integration', 'Security enhancement'],
       gradient: 'from-red-500 to-pink-500'
     }
@@ -44,12 +45,7 @@ const Portfolio = () => {
             <Card key={project.title} className="glass-effect overflow-hidden hover-scale fade-in-up" style={{ animationDelay: `${index * 0.2}s` }}>
               <div className={`h-2 bg-gradient-to-r ${project.gradient}`}></div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3 flex items-center gap-2">
-                  {project.title === 'FinBuddy' && <PiggyBank className="h-7 w-7 text-green-500" />}
-                  {project.title === 'ActiGen' && <Brain className="h-7 w-7 text-blue-500" />}
-                  {project.title === 'CatchPhish' && <Shield className="h-7 w-7 text-blue-400" />}
-                  {project.title}
-                </h3>
+                <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {project.description}
                 </p>
@@ -95,11 +91,6 @@ const Portfolio = () => {
               </div>
             </Card>
           ))}
-        </div>
-        <div className="flex justify-center mt-10">
-          <Button size="lg" className="gradient-bg text-white px-8 py-3 hover:scale-105 transition-transform" asChild>
-            <a href="/projects">View All Projects</a>
-          </Button>
         </div>
       </div>
     </section>

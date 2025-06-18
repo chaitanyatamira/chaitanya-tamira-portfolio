@@ -25,7 +25,8 @@ const About = () => {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Education</h3>
                     <p className="text-muted-foreground">
-                      B.Tech at VNR VJIET, expected 2026. Specialising in Computer Science Artificial Intelligence and Machine Learning Engineering. Focused on emerging technologies.
+                      B.Tech at VNR VJIET, expected 2026. Focused on computer science 
+                      fundamentals and emerging technologies.
                     </p>
                   </div>
                 </div>
@@ -66,7 +67,7 @@ const About = () => {
           <div className="fade-in-up">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-3xl blur-xl"></div>
-              <Card className="relative glass-effect p-8 hover-scale">
+              <Card className="relative glass-effect p-8">
                 <h3 className="text-2xl font-bold mb-6 gradient-text">Why Work With Me?</h3>
                 <ul className="space-y-4 text-left">
                   <li className="flex items-start">

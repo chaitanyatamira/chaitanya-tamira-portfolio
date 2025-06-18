@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Download } from 'lucide-react';
 
@@ -15,12 +16,8 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-primary to-blue-500 p-2">
               <div className="w-full h-full rounded-full bg-muted flex items-center justify-center">
-                <div className="w-40 h-40 rounded-full bg-gradient-to-r from-primary/20 to-blue-500/20 flex items-center justify-center overflow-hidden">
-                  <img
-                    src="/chaitu_pic.jpg"
-                    alt="Chaitanya Tamira"
-                    className="w-full h-full object-cover rounded-full"
-                  />
+                <div className="w-40 h-40 rounded-full bg-gradient-to-r from-primary/20 to-blue-500/20 flex items-center justify-center">
+                  <span className="text-6xl font-bold gradient-text">CT</span>
                 </div>
               </div>
             </div>
@@ -36,44 +33,15 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="gradient-bg text-white px-8 py-3 hover:scale-105 transition-transform"
-              onClick={() => {
-                const section = document.getElementById('portfolio');
-                if (section) {
-                  section.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
+            <Button size="lg" className="gradient-bg text-white px-8 py-3 hover:scale-105 transition-transform">
               View My Work
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="px-8 py-3 hover:scale-105 transition-transform"
-              asChild
-            >
-              <a href="/resume.pdf" download>
-                Download Resume
-                <Download className="ml-2 h-5 w-5" />
-              </a>
+            <Button variant="outline" size="lg" className="px-8 py-3 hover:scale-105 transition-transform">
+              Download Resume
+              <Download className="ml-2 h-5 w-5" />
             </Button>
           </div>
-        </div>
-      </div>
-      {/* Animated Character Scroll Down Indicator */}
-      <div className="absolute left-1/2 bottom-6 transform -translate-x-1/2 flex flex-col items-center z-20">
-        <div className="animate-bounce">
-          <img
-            src="/hairy-purple-alien-monster-cartoon-character.png"
-            alt="Scroll Down Character"
-            className="w-[60px] h-[60px] object-contain rounded-full shadow-lg"
-          />
-        </div>
-        <div className="mt-2 px-3 py-1 rounded-full text-xs font-semibold shadow-lg bg-gradient-to-r from-purple-500 to-blue-400 text-white border-2 border-white">
-          Scroll down
         </div>
       </div>
     </section>
