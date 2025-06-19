@@ -64,15 +64,15 @@ const Hero = () => {
         </div>
       </div>
       {/* Animated Character Scroll Down Indicator */}
-      <div className="absolute left-1/2 bottom-6 transform -translate-x-1/2 flex flex-col items-center z-20">
+      <div className="absolute left-1/2 bottom-3 transform -translate-x-1/2 flex flex-col items-center z-20">
         <div className="animate-bounce">
           <img
             src="/hairy-purple-alien-monster-cartoon-character.png"
             alt="Scroll Down Character"
-            className="w-[60px] h-[60px] object-contain rounded-full shadow-lg"
+            className="w-[50px] h-[50px] object-contain rounded-full shadow-lg"
           />
         </div>
-        <div className="mt-2 px-3 py-1 rounded-full text-xs font-semibold shadow-lg bg-gradient-to-r from-purple-500 to-blue-400 text-white border-2 border-white">
+        <div className="mt-0.5 px-3 py-0.5 rounded-full text-xs font-semibold shadow-lg bg-gradient-to-r from-purple-500 to-blue-400 text-white border-2 border-white">
           Scroll down
         </div>
       </div>
